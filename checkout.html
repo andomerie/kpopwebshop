@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Kpop Checkout</title>
+    <link rel="stylesheet" href="frontpage.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <header class="mb-2 border-bottom px-5 py-1">
+        <div class="d-flex flex-wrap  justify-content-center">
+            <a href="C:\Users\lisse\Documents\hjemmeside\frontpage.html" class="d-flex me-lg-auto text-white text-decoration-none">
+                <img src="C:\Users\lisse\Documents\hjemmeside\billeder\Nyt Projekt (1).png" alt="mdo" width="100" height="100"></use></svg>
+            </a>
+
+            <form class="col-lg-auto me-lg-2 py-3" role="search">
+                <input type="search" class="form-control rounded-3" placeholder="Search For..." aria-label="Search">
+            </form>
+            <div class="dropdown text-end py-3">
+                <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="C:\Users\lisse\Documents\hjemmeside\billeder\user_account_icon_145918.png" alt="mdo" width="32" height="32" class="rounded-circle">
+                </a>
+                <ul class="dropdown-menu text-small">
+                    <li><a class="dropdown-item" href="#">My Orders</a></li>
+                    <li><a class="dropdown-item" href="#">Wishlist</a></li>
+                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Sign out</a></li>
+                </ul>
+            </div>
+            <a href="C:\Users\lisse\Documents\hjemmeside\kurv.html" class="d-block link-dark text-decoration-none py-3" aria-expanded="false">
+                <img src="C:\Users\lisse\Documents\hjemmeside\billeder\263142.png" alt="mdo" width="32" height="32">
+            </a>
+        </div>
+    </header>
+
+    <div class="row g-5 p-5">
+        <div class="col-md-5 col-lg-4 order-md-last">
+            <h4 class="d-flex justify-content-between align-items-center mb-3">
+                <span class="text-primary">Your cart</span>
+                <span class="badge bg-primary rounded-pill">3</span>
+            </h4>
+            <ul class="list-group mb-3">
+                <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div>
+                        <h6 class="my-0">LE SSERAFIM ANTIFRAGILE</h6>
+                        <small class="text-muted">SET</small>
+                    </div>
+                    <span class="text-muted">689,85 DKK</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div>
+                        <h6 class="my-0">NCT DREAM Candy (Digipack ver.)</h6>
+                        <small class="text-muted">CHENLE Ver.</small>
+                    </div>
+                    <span class="text-muted">179,95 DKK</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div>
+                        <h6 class="my-0">TXT 2023 Seasons Greetings</h6>
+                        <small class="text-muted">Seasons Greetings</small>
+                    </div>
+                    <span class="text-muted">529,95 DKK</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between bg-light">
+                    <div class="text-success">
+                        <h6 class="my-0">Promo code</h6>
+                        <small>EXAMPLECODE</small>
+                    </div>
+                    <span class="text-success">-50,00 DKK</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    <span>Total (DKK)</span>
+                    <strong>1349,75 DKK</strong>
+                </li>
+            </ul>
+
+            <form class="card p-2">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Promo code">
+                    <button type="submit" class="btn btn-secondary">Redeem</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="col-md-7 col-lg-8">
+            <h4 class="mb-3">Billing address</h4>
+            <form class="needs-validation" novalidate="">
+                <div class="row g-3">
+                    <div class="col-sm-6">
+                        <label for="firstName" class="form-label">First name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                        <div class="invalid-feedback">
+                            Valid first name is required.
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label for="lastName" class="form-label">Last name</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                        <div class="invalid-feedback">
+                            Valid last name is required.
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                        <div class="invalid-feedback">
+                            Please enter a valid email address for shipping updates.
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <label for="email" class="form-label">Phone Number</label>
+                        <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                        <div class="invalid-feedback">
+                            Please enter a valid phone number for shipping updates.
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <label for="address" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+                        <div class="invalid-feedback">
+                           Please enter your shipping address.
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <label for="address2" class="form-label">Address 2 <span class="text-muted">(Optional)</span></label>
+                        <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                    </div>
+
+                    <div class="col-md-5">
+                        <label for="country" class="form-label">Country</label>
+                        <select class="form-select" id="country" required="">
+                            <option value="">Choose...</option>
+                            <option>Denmark</option>
+                            <option>Sweden</option>
+                            <option>Norway</option>
+                            <option>Germany</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid country.
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <label for="zip" class="form-label">City</label>
+                        <input type="text" class="form-control" id="zip" placeholder="" required="">
+                        <div class="invalid-feedback">
+                            City required.
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <label for="zip" class="form-label">Zip</label>
+                        <input type="text" class="form-control" id="zip" placeholder="" required="">
+                        <div class="invalid-feedback">
+                            Zip code required.
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="my-4">
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="same-address">
+                    <label class="form-check-label" for="same-address">Shipping address is the same as my billing address</label>
+                </div>
+
+                <hr class="my-4">
+
+                <h4 class="mb-3">Payment</h4>
+
+                <div class="my-3">
+                    <div class="form-check">
+                        <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
+                        <label class="form-check-label" for="credit">Credit card</label>
+                    </div>
+                    <div class="form-check">
+                        <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
+                        <label class="form-check-label" for="debit">Debit card</label>
+                    </div>
+                    <div class="form-check">
+                        <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
+                        <label class="form-check-label" for="paypal">PayPal</label>
+                    </div>
+                </div>
+
+                <div class="row gy-3">
+                    <div class="col-md-6">
+                        <label for="cc-name" class="form-label">Name on card</label>
+                        <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+                        <small class="text-muted">Full name as displayed on card</small>
+                        <div class="invalid-feedback">
+                            Name on card is required
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="cc-number" class="form-label">Credit card number</label>
+                        <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+                        <div class="invalid-feedback">
+                            Credit card number is required
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <label for="cc-expiration" class="form-label">Expiration</label>
+                        <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+                        <div class="invalid-feedback">
+                            Expiration date required
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <label for="cc-cvv" class="form-label">CVV</label>
+                        <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+                        <div class="invalid-feedback">
+                            Security code required
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="my-4">
+                <div class="col-md-12">
+                    <button class="w-100 btn btn-dark btn-lg" href="C:\Users\lisse\Documents\hjemmeside\kurv.html">Checkout</button>
+                </div>
+                <ol class="breadcrumb mb-0 text-muted">
+                    <li class="mb-2 py-3"><a href="C:\Users\lisse\Documents\hjemmeside\kurv.html" class="nav-link p-0 text-muted"> Back to Cart </a></li>
+                </ol>
+            </form>
+        </div>
+    </div>
+    <footer class="p-5 mb-2">
+        <div class="row">
+            <div class="col-5 col-md-2">
+                <h5>Policies</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terms & Conditions</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacy Policy</a></li>
+                </ul>
+            </div>
+  
+            <div class="col-5 col-md-2">
+                <h5>Address</h5>
+                <ul class="nav flex-column">
+                    <p class="nav-item"><a class="nav-link p-0 text-muted">The Kpop</a></p>
+                    <p class="nav-item"><a class="nav-link p-0 text-muted">Langelandsgade 6, 2.tv</a></p>
+                    <p class="nav-item"><a class="nav-link p-0 text-muted">5000</a></p>
+                    <p class="nav-item"><a class="nav-link p-0 text-muted">Odense C</a></p>
+                    <p class="nav-item"><a class="nav-link p-0 text-muted">Denmark</a></p>
+                </ul>
+            </div>
+  
+            <div class="col-5 col-md-2">
+                <h5>Opening hours</h5>
+                <ul class="nav flex-column">
+                    <p class="nav-item"><a class="nav-link p-0 text-muted">Monday-Friday: 16-20</a></p>
+                    <p class="nav-item"><a class="nav-link p-0 text-muted">Saturday: 10-20</a></p>
+                    <p class="nav-item"><a class="nav-link p-0 text-muted">Sunday: 10-14</a></p>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-2">
+                <h5>Contact</h5>
+                <ul class="nav flex-column">
+                    <p class="nav-item mb-2"><a class="nav-link p-0 text-muted">Email:</a></p>
+                    <p class="nav-item mb-2"><a class="nav-link p-0 text-muted">contact@thekpop.com</a></p>
+                    <p class="nav-item mb-2"><a class="nav-link p-0 text-muted">Phone:</a></p>
+                    <p class="nav-item mb-2"><a class="nav-link p-0 text-muted">+45 30 42 77 46</a></p>
+                </ul>
+            </div>
+  
+            <div class="col-md-3 offset-md-1 mb-1">
+                <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>To get notified when something new and exciting is happening</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-1">
+                        <label for="newsletter1" class="visually-hidden">Email address</label>
+                        <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                        <button class="btn btn-dark" type="button">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between my-4 border-top p-5">
+        <p>Copyright © 2023 The Kpop inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="https://www.instagram.com/mykpopdeath/"></use></svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
